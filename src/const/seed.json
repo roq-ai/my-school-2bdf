@@ -1,0 +1,912 @@
+[
+  {
+    "examination": [
+      {
+        "id": "80fe4a38-f27d-46f8-8fd2-356e3c8da263",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T07:41:36.765Z",
+        "updated_at": "2023-08-07T02:12:20.471Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "c44ea805-988b-4556-880e-09a8a3403536",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T18:28:04.974Z",
+        "updated_at": "2023-08-06T18:33:34.625Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "ee5fd65d-4a80-4b9d-aa69-bd6bf1d8968f",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-07T02:04:07.426Z",
+        "updated_at": "2023-08-06T18:59:36.829Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "b32b22f3-157c-40cf-89af-828eab23f7ae",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-07T00:39:38.789Z",
+        "updated_at": "2023-08-06T08:25:55.893Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "19acc218-178f-4b57-9938-04b3a6f19912",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T09:10:58.579Z",
+        "updated_at": "2023-08-07T05:40:10.933Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "208329ec-21a1-4d16-876d-40f362a10d45",
+        "score": 85420,
+        "award": "Gold",
+        "created_at": "2023-08-06T09:18:19.882Z",
+        "updated_at": "2023-08-07T05:57:12.248Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "19acc218-178f-4b57-9938-04b3a6f19912"
+      },
+      {
+        "id": "0f2367db-3c32-47ae-9b40-7a10a0b7df03",
+        "score": 29966,
+        "award": "Silver",
+        "created_at": "2023-08-07T06:48:12.260Z",
+        "updated_at": "2023-08-06T23:23:42.544Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "c44ea805-988b-4556-880e-09a8a3403536"
+      },
+      {
+        "id": "b74e9423-3643-405e-8966-d06e7b08c63c",
+        "score": 53579,
+        "award": "Bronze",
+        "created_at": "2023-08-07T02:46:52.821Z",
+        "updated_at": "2023-08-07T04:32:55.885Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "b32b22f3-157c-40cf-89af-828eab23f7ae"
+      },
+      {
+        "id": "f4231623-4c81-4d29-a9da-0020d0d60e8f",
+        "score": 70368,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T09:14:59.220Z",
+        "updated_at": "2023-08-06T07:52:35.514Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "19acc218-178f-4b57-9938-04b3a6f19912"
+      },
+      {
+        "id": "8124dec0-6607-455d-a9b4-4750537d21b1",
+        "score": 72244,
+        "award": "Excellence",
+        "created_at": "2023-08-06T16:16:09.682Z",
+        "updated_at": "2023-08-06T14:38:48.923Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "c44ea805-988b-4556-880e-09a8a3403536"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "307226fd-0fd5-48e9-b0e8-036d059cad0c",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T11:31:56.430Z",
+        "updated_at": "2023-08-07T00:13:13.245Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "6da5e219-252a-462d-aa03-3e22d872c1cb",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T19:11:17.730Z",
+        "updated_at": "2023-08-06T15:13:28.670Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "ca6d72a7-e525-4f98-9176-54d58caf1cfd",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-07T04:41:26.310Z",
+        "updated_at": "2023-08-07T02:04:44.948Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "cf8dbde5-80f5-4f6a-8d5a-df5c706bccef",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T13:19:07.270Z",
+        "updated_at": "2023-08-06T20:58:01.874Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "d7e4da6e-cda7-49aa-a6e8-9109f90a0729",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T13:32:42.054Z",
+        "updated_at": "2023-08-06T20:10:50.664Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "827eba71-c790-4c3a-b271-ce6e3228ff01",
+        "score": 69003,
+        "award": "Gold",
+        "created_at": "2023-08-06T14:56:25.206Z",
+        "updated_at": "2023-08-07T05:17:56.947Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "6da5e219-252a-462d-aa03-3e22d872c1cb"
+      },
+      {
+        "id": "a3a364c1-848e-4ac9-b4d1-9aeda2f14169",
+        "score": 49439,
+        "award": "Silver",
+        "created_at": "2023-08-06T22:29:15.941Z",
+        "updated_at": "2023-08-06T18:12:09.788Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "d7e4da6e-cda7-49aa-a6e8-9109f90a0729"
+      },
+      {
+        "id": "1eb54636-615c-415a-9f8a-65131babaabb",
+        "score": 26389,
+        "award": "Bronze",
+        "created_at": "2023-08-07T07:13:13.064Z",
+        "updated_at": "2023-08-06T09:33:16.073Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "6da5e219-252a-462d-aa03-3e22d872c1cb"
+      },
+      {
+        "id": "0bd1ca32-a582-4b81-b128-66c9c8567154",
+        "score": 1997,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T23:47:01.821Z",
+        "updated_at": "2023-08-07T06:41:06.793Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "d7e4da6e-cda7-49aa-a6e8-9109f90a0729"
+      },
+      {
+        "id": "5759d508-4179-44e7-a77a-d4458df2040d",
+        "score": 24666,
+        "award": "Excellence",
+        "created_at": "2023-08-06T14:29:32.707Z",
+        "updated_at": "2023-08-06T21:52:40.978Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "6da5e219-252a-462d-aa03-3e22d872c1cb"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "b2766881-7d26-43e0-87b8-5c23b8d18da7",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T13:52:58.377Z",
+        "updated_at": "2023-08-07T05:23:42.258Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "a723b422-93be-4974-982e-08645f4d5507",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-07T03:38:30.232Z",
+        "updated_at": "2023-08-07T05:24:40.586Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f0f0c5-e275-4c16-96a2-7f6b6d10bc8f",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T12:21:21.882Z",
+        "updated_at": "2023-08-06T12:05:36.476Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "262d18d1-0185-4ebd-a1ac-e3e5341c4905",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-07T01:29:59.098Z",
+        "updated_at": "2023-08-06T09:12:11.624Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "c204c48f-c7b4-4af5-b827-af46d00ee53c",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T08:21:18.483Z",
+        "updated_at": "2023-08-07T04:49:42.516Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "0952278a-c241-47eb-8efe-40295a9064cf",
+        "score": 24800,
+        "award": "Gold",
+        "created_at": "2023-08-06T12:28:03.515Z",
+        "updated_at": "2023-08-06T16:02:49.426Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "262d18d1-0185-4ebd-a1ac-e3e5341c4905"
+      },
+      {
+        "id": "8f0295f3-78e8-4e31-be21-690adef60a06",
+        "score": 65931,
+        "award": "Silver",
+        "created_at": "2023-08-06T21:08:26.948Z",
+        "updated_at": "2023-08-06T07:46:15.815Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "f7f0f0c5-e275-4c16-96a2-7f6b6d10bc8f"
+      },
+      {
+        "id": "da087e4d-0fbc-4d3a-9231-7f6a6cbcd6cf",
+        "score": 60829,
+        "award": "Bronze",
+        "created_at": "2023-08-06T21:12:13.535Z",
+        "updated_at": "2023-08-06T11:02:32.583Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "f7f0f0c5-e275-4c16-96a2-7f6b6d10bc8f"
+      },
+      {
+        "id": "67d25872-018c-461f-bf5a-d524641b65dd",
+        "score": 97196,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-07T06:07:41.812Z",
+        "updated_at": "2023-08-06T23:08:55.513Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "c204c48f-c7b4-4af5-b827-af46d00ee53c"
+      },
+      {
+        "id": "46fdfc74-a5bd-448b-aac5-f05860d95527",
+        "score": 76134,
+        "award": "Excellence",
+        "created_at": "2023-08-06T15:06:51.392Z",
+        "updated_at": "2023-08-06T11:57:16.307Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "262d18d1-0185-4ebd-a1ac-e3e5341c4905"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "3ede7612-cbd7-4366-9215-2858cbf11659",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-07T00:53:04.286Z",
+        "updated_at": "2023-08-07T05:26:24.237Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "189d10b6-7673-41f6-841d-430ffac9c823",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T22:19:39.131Z",
+        "updated_at": "2023-08-06T23:37:47.414Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "dac9d9b3-ef0e-4fb7-a52a-195c78e0328f",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T09:39:06.275Z",
+        "updated_at": "2023-08-06T11:28:18.543Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "00209020-43f7-4af5-9553-dc7533ce10c3",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T08:44:01.157Z",
+        "updated_at": "2023-08-06T09:24:31.892Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "0f3a4362-af6e-4c12-beb9-54d69dffcbdc",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-07T00:01:53.147Z",
+        "updated_at": "2023-08-06T19:00:23.414Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "f3ae6103-64cf-4297-80f9-f02b84b88ed0",
+        "score": 42917,
+        "award": "Gold",
+        "created_at": "2023-08-06T20:34:13.884Z",
+        "updated_at": "2023-08-06T23:18:39.413Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "189d10b6-7673-41f6-841d-430ffac9c823"
+      },
+      {
+        "id": "dad413ec-7d84-4203-b93c-f2cdd5dd989c",
+        "score": 28658,
+        "award": "Silver",
+        "created_at": "2023-08-06T20:59:43.822Z",
+        "updated_at": "2023-08-06T19:02:37.476Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "dac9d9b3-ef0e-4fb7-a52a-195c78e0328f"
+      },
+      {
+        "id": "c417db40-1425-43bd-b684-5bf5700fe662",
+        "score": 89656,
+        "award": "Bronze",
+        "created_at": "2023-08-06T14:29:39.662Z",
+        "updated_at": "2023-08-06T22:16:36.503Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "0f3a4362-af6e-4c12-beb9-54d69dffcbdc"
+      },
+      {
+        "id": "39a6d335-b3a3-4160-8a84-2d4aa41af602",
+        "score": 11698,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-07T02:51:40.091Z",
+        "updated_at": "2023-08-07T02:42:46.952Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "dac9d9b3-ef0e-4fb7-a52a-195c78e0328f"
+      },
+      {
+        "id": "db9a16d8-2ede-42d5-a71d-a136e9c791e3",
+        "score": 8435,
+        "award": "Excellence",
+        "created_at": "2023-08-06T21:48:38.285Z",
+        "updated_at": "2023-08-07T06:58:40.508Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "0f3a4362-af6e-4c12-beb9-54d69dffcbdc"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "89ee5b0e-8afb-4da7-84ee-0c9c9411de77",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T14:46:11.707Z",
+        "updated_at": "2023-08-07T04:47:54.700Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "5a556eb5-e5c1-43a7-b032-17005fa99801",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T21:44:56.011Z",
+        "updated_at": "2023-08-06T16:34:51.481Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "7af4116c-fe7f-4301-bd74-ce26fe21ab9b",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T10:10:26.525Z",
+        "updated_at": "2023-08-07T02:03:06.008Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "26630397-4218-4c08-a221-3dfb919ab533",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T12:07:26.156Z",
+        "updated_at": "2023-08-06T13:29:29.395Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "f03d8a42-6b6b-466f-a40f-0d6c828d7ecd",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T09:13:07.341Z",
+        "updated_at": "2023-08-06T20:25:33.095Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "edc6432e-b5cd-450c-ad9d-dfec9151f3d5",
+        "score": 73866,
+        "award": "Gold",
+        "created_at": "2023-08-06T11:57:03.969Z",
+        "updated_at": "2023-08-06T23:39:32.610Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "7af4116c-fe7f-4301-bd74-ce26fe21ab9b"
+      },
+      {
+        "id": "7452205e-1d50-4f54-a0d6-8f2bf7c091f8",
+        "score": 68885,
+        "award": "Silver",
+        "created_at": "2023-08-06T23:05:16.091Z",
+        "updated_at": "2023-08-06T16:01:10.022Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "26630397-4218-4c08-a221-3dfb919ab533"
+      },
+      {
+        "id": "50a749cb-da45-4704-b82a-cf69d1f846d2",
+        "score": 8712,
+        "award": "Bronze",
+        "created_at": "2023-08-06T08:42:12.800Z",
+        "updated_at": "2023-08-06T23:11:23.616Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "7af4116c-fe7f-4301-bd74-ce26fe21ab9b"
+      },
+      {
+        "id": "d3b0757e-a965-45e6-a4d2-89fc33ed79aa",
+        "score": 55421,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T15:36:42.184Z",
+        "updated_at": "2023-08-06T14:13:09.547Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "89ee5b0e-8afb-4da7-84ee-0c9c9411de77"
+      },
+      {
+        "id": "007497a9-0dda-48c8-bb90-847242afba25",
+        "score": 59250,
+        "award": "Excellence",
+        "created_at": "2023-08-06T13:42:28.921Z",
+        "updated_at": "2023-08-06T23:47:27.166Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "7af4116c-fe7f-4301-bd74-ce26fe21ab9b"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "e488e33a-a985-428c-a82f-6c8e54fe4c79",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T13:01:06.068Z",
+        "updated_at": "2023-08-06T11:54:12.756Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "365d9a7f-5c43-45c9-ae80-207ab2576fcb",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T13:40:40.753Z",
+        "updated_at": "2023-08-07T01:03:09.413Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "8219b4c4-57ff-4b63-bbde-786d4bf5e1e5",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T19:20:46.905Z",
+        "updated_at": "2023-08-06T09:48:55.547Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "c540e060-4f43-41ae-a910-a3f40ced372b",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T09:27:41.554Z",
+        "updated_at": "2023-08-07T02:36:29.221Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "f762bc49-7218-4983-a586-16f4752cae36",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-07T02:46:07.525Z",
+        "updated_at": "2023-08-06T13:24:39.360Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "abff21c1-8ac8-4bae-8250-a349008f4127",
+        "score": 56349,
+        "award": "Gold",
+        "created_at": "2023-08-07T06:09:04.298Z",
+        "updated_at": "2023-08-06T18:31:39.932Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "365d9a7f-5c43-45c9-ae80-207ab2576fcb"
+      },
+      {
+        "id": "cd66e924-ec73-419f-897f-bc329c3785ca",
+        "score": 90316,
+        "award": "Silver",
+        "created_at": "2023-08-06T12:18:49.898Z",
+        "updated_at": "2023-08-06T10:20:11.541Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "365d9a7f-5c43-45c9-ae80-207ab2576fcb"
+      },
+      {
+        "id": "c469fdf6-21e1-4b7b-811e-6aa11c3adfc5",
+        "score": 38373,
+        "award": "Bronze",
+        "created_at": "2023-08-07T00:34:54.801Z",
+        "updated_at": "2023-08-06T17:22:05.226Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "e488e33a-a985-428c-a82f-6c8e54fe4c79"
+      },
+      {
+        "id": "d6560e04-1510-4ebd-a74a-072834fa6376",
+        "score": 98677,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T08:43:42.789Z",
+        "updated_at": "2023-08-07T00:57:56.466Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "365d9a7f-5c43-45c9-ae80-207ab2576fcb"
+      },
+      {
+        "id": "42715289-a330-4a18-a5e1-348457bbcfd4",
+        "score": 51390,
+        "award": "Excellence",
+        "created_at": "2023-08-07T00:26:35.497Z",
+        "updated_at": "2023-08-06T23:27:05.365Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "f762bc49-7218-4983-a586-16f4752cae36"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "fc111ab8-da30-4b64-bf66-b5aee3476420",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T09:13:30.849Z",
+        "updated_at": "2023-08-06T15:43:41.595Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "cb512706-b2ad-4e3d-aeaf-0eff085004bc",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T16:41:30.759Z",
+        "updated_at": "2023-08-06T23:45:45.667Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "9f397c59-f025-4bf4-8828-6900c099f19a",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-07T05:08:52.048Z",
+        "updated_at": "2023-08-06T14:14:10.105Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "f96f7775-751b-48de-b224-0d1613bd4d05",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-07T00:55:42.925Z",
+        "updated_at": "2023-08-07T07:06:02.039Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "d213b84f-62e7-45df-bece-dd2b29cbbd43",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T20:08:21.298Z",
+        "updated_at": "2023-08-07T02:34:12.682Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "ec9b2db7-0356-4a4c-beb3-c4e82ae6e949",
+        "score": 67504,
+        "award": "Gold",
+        "created_at": "2023-08-06T14:34:38.093Z",
+        "updated_at": "2023-08-06T15:37:20.277Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "f96f7775-751b-48de-b224-0d1613bd4d05"
+      },
+      {
+        "id": "570b0b0d-4a6c-4347-8281-0b8f956ea5b5",
+        "score": 11457,
+        "award": "Silver",
+        "created_at": "2023-08-06T10:27:54.580Z",
+        "updated_at": "2023-08-07T03:23:05.566Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "fc111ab8-da30-4b64-bf66-b5aee3476420"
+      },
+      {
+        "id": "4596a99e-268d-4069-b60c-f9bfe80a6ce7",
+        "score": 43328,
+        "award": "Bronze",
+        "created_at": "2023-08-07T04:22:53.118Z",
+        "updated_at": "2023-08-06T07:31:47.171Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "f96f7775-751b-48de-b224-0d1613bd4d05"
+      },
+      {
+        "id": "2dea9b3f-37e4-49c0-910f-192df102dfd8",
+        "score": 27232,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-07T01:24:26.058Z",
+        "updated_at": "2023-08-06T11:56:18.214Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "d213b84f-62e7-45df-bece-dd2b29cbbd43"
+      },
+      {
+        "id": "161341f4-26b1-4053-a2e2-a0ba94d93552",
+        "score": 30531,
+        "award": "Excellence",
+        "created_at": "2023-08-07T02:47:24.451Z",
+        "updated_at": "2023-08-06T15:27:30.520Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "9f397c59-f025-4bf4-8828-6900c099f19a"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "48f9c40b-8a68-4f7e-a70d-70c0455f0a91",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T22:47:55.521Z",
+        "updated_at": "2023-08-06T15:59:39.875Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "779b2375-b27c-4cfd-b5b7-7095099a7564",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T20:07:15.407Z",
+        "updated_at": "2023-08-06T22:38:08.005Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "2a0f071f-ee1f-4ef0-9214-7866cd231526",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T14:44:30.859Z",
+        "updated_at": "2023-08-06T09:12:20.199Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "5388ac62-cdaa-4a0a-8075-e14ea444e739",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T10:31:03.266Z",
+        "updated_at": "2023-08-06T19:55:22.644Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "894941a5-3f46-4794-89f8-1dbf9da2cceb",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-07T03:37:53.352Z",
+        "updated_at": "2023-08-06T20:36:21.201Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "8c778285-25c7-407b-af76-708336c40b3e",
+        "score": 70418,
+        "award": "Gold",
+        "created_at": "2023-08-07T04:57:06.617Z",
+        "updated_at": "2023-08-06T12:01:04.972Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "2a0f071f-ee1f-4ef0-9214-7866cd231526"
+      },
+      {
+        "id": "285afc95-cf20-4ac7-a0ba-c3f0b123cd26",
+        "score": 41666,
+        "award": "Silver",
+        "created_at": "2023-08-06T21:41:02.563Z",
+        "updated_at": "2023-08-06T11:18:22.007Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "779b2375-b27c-4cfd-b5b7-7095099a7564"
+      },
+      {
+        "id": "b0f06dfb-f639-4547-bb6c-3f57adf16597",
+        "score": 63575,
+        "award": "Bronze",
+        "created_at": "2023-08-06T10:26:44.393Z",
+        "updated_at": "2023-08-06T18:30:01.652Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "48f9c40b-8a68-4f7e-a70d-70c0455f0a91"
+      },
+      {
+        "id": "af7c0d90-5cd4-483c-b57a-101bd87ae5d4",
+        "score": 5437,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T20:54:02.024Z",
+        "updated_at": "2023-08-06T23:44:39.168Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "779b2375-b27c-4cfd-b5b7-7095099a7564"
+      },
+      {
+        "id": "8b42d4e7-cdbe-455a-ac65-f3f6e57203e1",
+        "score": 84701,
+        "award": "Excellence",
+        "created_at": "2023-08-06T15:35:01.000Z",
+        "updated_at": "2023-08-06T22:11:26.036Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "5388ac62-cdaa-4a0a-8075-e14ea444e739"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "3148fb70-cef2-41da-8234-01e81b26a64e",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T23:40:28.335Z",
+        "updated_at": "2023-08-06T23:55:36.023Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "081d3c6e-dbd8-4963-ad51-b31e4ebb25fa",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T19:34:22.110Z",
+        "updated_at": "2023-08-06T13:50:36.373Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "33e4ad70-743e-4251-98d8-c9a43a55ae19",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-07T01:45:19.253Z",
+        "updated_at": "2023-08-06T10:55:06.548Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "8c446197-a352-48f6-b2f5-c88f4243bcc5",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T18:57:23.976Z",
+        "updated_at": "2023-08-06T14:29:45.916Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "cb09a706-a98e-4f9c-a8d8-79d33c549bdc",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T21:47:13.869Z",
+        "updated_at": "2023-08-07T03:12:58.033Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "12a6a8a5-2080-4d3b-b9a6-7d00f982ed37",
+        "score": 96097,
+        "award": "Gold",
+        "created_at": "2023-08-07T04:58:45.897Z",
+        "updated_at": "2023-08-06T21:58:48.637Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "33e4ad70-743e-4251-98d8-c9a43a55ae19"
+      },
+      {
+        "id": "0b6e642c-5784-4503-bbaf-f91a5d3ca7ab",
+        "score": 67125,
+        "award": "Silver",
+        "created_at": "2023-08-06T14:20:03.318Z",
+        "updated_at": "2023-08-06T13:04:25.906Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "33e4ad70-743e-4251-98d8-c9a43a55ae19"
+      },
+      {
+        "id": "4ffc4411-aa44-4f44-9d9d-ad5bb1f36056",
+        "score": 81583,
+        "award": "Bronze",
+        "created_at": "2023-08-07T02:20:24.020Z",
+        "updated_at": "2023-08-07T04:00:59.044Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "3148fb70-cef2-41da-8234-01e81b26a64e"
+      },
+      {
+        "id": "48777163-7c20-423c-8e74-b0360bbb90f8",
+        "score": 25809,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-07T04:03:17.053Z",
+        "updated_at": "2023-08-06T19:56:05.028Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "cb09a706-a98e-4f9c-a8d8-79d33c549bdc"
+      },
+      {
+        "id": "6e4de5bf-d701-49da-9096-b34dd983bf86",
+        "score": 60014,
+        "award": "Excellence",
+        "created_at": "2023-08-06T20:37:28.067Z",
+        "updated_at": "2023-08-06T19:37:33.162Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "33e4ad70-743e-4251-98d8-c9a43a55ae19"
+      }
+    ]
+  },
+  {
+    "examination": [
+      {
+        "id": "befe4dd7-031d-4250-b907-60a5dc21a87c",
+        "name": "Math",
+        "age_group": "10-12",
+        "created_at": "2023-08-06T10:18:19.033Z",
+        "updated_at": "2023-08-06T10:13:48.631Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "3c55a805-0200-4ffd-91ec-2519e8b34eb1",
+        "name": "Science",
+        "age_group": "13-15",
+        "created_at": "2023-08-06T17:00:17.095Z",
+        "updated_at": "2023-08-07T02:05:00.468Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "141f6bd3-f3c7-4e89-9629-7ed26e536d18",
+        "name": "English",
+        "age_group": "16-18",
+        "created_at": "2023-08-06T08:47:18.536Z",
+        "updated_at": "2023-08-06T23:30:15.837Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "40fcfb1b-49b9-44cc-a9a2-20bdf58b1d11",
+        "name": "History",
+        "age_group": "19-21",
+        "created_at": "2023-08-06T08:29:24.053Z",
+        "updated_at": "2023-08-06T20:33:09.043Z",
+        "examiner_id": "user_entity_pk"
+      },
+      {
+        "id": "4c2174f8-522a-4b0e-88d4-305416e048e1",
+        "name": "Geography",
+        "age_group": "22-24",
+        "created_at": "2023-08-06T21:24:50.047Z",
+        "updated_at": "2023-08-06T23:56:12.731Z",
+        "examiner_id": "user_entity_pk"
+      }
+    ],
+    "result": [
+      {
+        "id": "affc50df-b4c8-4e2f-a2ed-849de519b90a",
+        "score": 5369,
+        "award": "Gold",
+        "created_at": "2023-08-06T14:34:22.391Z",
+        "updated_at": "2023-08-06T15:34:49.349Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "4c2174f8-522a-4b0e-88d4-305416e048e1"
+      },
+      {
+        "id": "cd8f9b8a-6573-4368-bb44-e253a7db696d",
+        "score": 57424,
+        "award": "Silver",
+        "created_at": "2023-08-07T06:32:13.777Z",
+        "updated_at": "2023-08-06T20:06:41.008Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "befe4dd7-031d-4250-b907-60a5dc21a87c"
+      },
+      {
+        "id": "a45cc258-80b5-410f-bec0-097ba7da212b",
+        "score": 68223,
+        "award": "Bronze",
+        "created_at": "2023-08-07T02:44:40.075Z",
+        "updated_at": "2023-08-06T13:14:20.160Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "3c55a805-0200-4ffd-91ec-2519e8b34eb1"
+      },
+      {
+        "id": "f4af3d14-0487-4d59-a897-5f4ed54a2d86",
+        "score": 63450,
+        "award": "Honorable Mention",
+        "created_at": "2023-08-06T11:39:15.893Z",
+        "updated_at": "2023-08-06T09:07:55.859Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "3c55a805-0200-4ffd-91ec-2519e8b34eb1"
+      },
+      {
+        "id": "00b93628-989a-4465-b778-a135b8887cbb",
+        "score": 95288,
+        "award": "Excellence",
+        "created_at": "2023-08-06T08:34:12.268Z",
+        "updated_at": "2023-08-06T14:32:26.499Z",
+        "client_id": "main_entity_pk",
+        "examination_id": "befe4dd7-031d-4250-b907-60a5dc21a87c"
+      }
+    ]
+  }
+]
